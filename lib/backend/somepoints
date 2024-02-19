@@ -1,0 +1,4 @@
+in backend folder we put all backend stuff. if you want to run backend for setup node moudle and configure
+
+here we create a user model who take name ,location,and contanct number,and some massage.
+it store on mongoDB data base.

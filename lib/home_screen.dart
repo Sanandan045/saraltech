@@ -18,7 +18,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
 
   Future<void> submitUserInfo() async {
     try {
-      final String apiUrl = 'http://192.168.43.229:3000/api/users';
+      final String apiUrl = 'http://ipaddress:3000/api/users';
 
       final response = await http.post(
         Uri.parse(apiUrl),
